@@ -1,0 +1,52 @@
+\documentclass[a4paper,10pt,fleqn]{article}
+\usepackage{tex/00/layout}
+
+\usepackage{float}		% Allow floating pictures
+\usepackage{url}
+\usepackage{todonotes}    %Todo notes
+\usepackage{pdfpages}	% Insert pdf in documentation
+
+\tolerance=500            % hbox badness warning supression
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+
+% Title
+\input{tex/00/title}
+% Inhaltsverzeichniss
+\input{tex/00/toc}
+
+
+
+% Messungen
+\section{Messungen}
+\input{tex/messungen/6_1_grundfrequenztaktung}
+\input{tex/messungen/6_1_1_stromform}
+\input{tex/messungen/6_1_2_einst_wirk_und_blindleistung}
+
+\input{tex/messungen/6_2_weitere_pulsmuster}
+\input{tex/messungen/6_2_1_stromform}
+\input{tex/messungen/6_2_2_einst_wirk_und_blindleistung}
+\input{tex/messungen/6_2_3_stromeffektivwert}
+
+\input{tex/messungen/6_3_spannungsbelastung_halbleiter}
+
+\input{tex/messungen/6_4_diverse_messungen}
+
+
+
+% Messgeräte
+\section{Messgeräte}
+\input{tex/messgeraete/messgeraete}
+
+
+
+%Anhang
+\clearpage
+\section{Anhang}
+\appendix
+\input{tex/99_appendix/aufgabenstellung}
+
+
+\end{document}
