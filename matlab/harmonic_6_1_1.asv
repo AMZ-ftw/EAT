@@ -1,0 +1,21 @@
+% Aufgabe 6.1.1 Harmonische
+
+u = 253;
+h1 = 220;
+
+% harmonic in % 1 2 3 5 7 9
+h_num = [1 2 3 5 7 9];
+h_p = [100 0.1 33.5 20 14 11];
+h_v = h1 / 100 .* h_p;
+
+figure('Harmonische in Spannungswerte', 1);
+bar(h_num, h_v);
+xlabel('Harmonische');
+ylabel('Spannung')
+
+figure('Harmonische in Prozent zur Grundschwingung', 1);
+bar(h_num, h_p);
+xlabel('Harmonische');
+ylabel('Spannung')
+
+
