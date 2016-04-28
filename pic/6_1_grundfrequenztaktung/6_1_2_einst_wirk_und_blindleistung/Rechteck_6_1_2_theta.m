@@ -10,7 +10,8 @@ Q = sqrt(S.^2 - P.^2);
 figure(1)
 plot(theta,P, 'linewidth', 5, theta, Q, 'linewidth', 5, theta,S, 'linewidth', 5)
 legend('P', 'Q', 'S')
-
+xlabel('theta [°]')
+ylabel('P [W], Q [Var], S [VA]')
 
 
 
@@ -31,17 +32,19 @@ Q1 = S1.*sin(phi);
 figure(2)
 plot(theta,P1, 'linewidth', 5, theta, Q1, 'linewidth', 5, theta,S1, 'linewidth', 5)
 legend('P1', 'Q1', 'S1')
-
-
-
+xlabel('theta [°]')
+ylabel('P1 [W], Q1 [Var], S1 [VA]')
 
 
 
 figure(3)
 plot(theta, P, 'linewidth', 5, theta, P1, 'linewidth', 5)
 legend('P', 'P1')
-
+xlabel('theta [°]')
+ylabel('P [W], P1 [W]')
 
 figure(4)
 plot(theta, Q, 'linewidth', 5, theta, Q1, 'linewidth', 5)
 legend('Q', 'Q1')
+xlabel('theta [°]')
+ylabel('Q [Var], Q1 [Var]')
