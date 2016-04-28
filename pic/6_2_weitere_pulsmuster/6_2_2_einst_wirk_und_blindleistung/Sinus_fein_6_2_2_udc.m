@@ -7,3 +7,5 @@ Q = sqrt(S.^2 - P.^2);
 
 plot(Udc_eff,P, 'linewidth', 5, Udc_eff, Q, 'linewidth', 5, Udc_eff,S, 'linewidth', 5)
 legend('P', 'Q', 'S')
+xlabel('U_{dc} [V]')
+ylabel('P [W], Q [Var], S [VA]')

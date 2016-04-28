@@ -7,3 +7,5 @@ Q = sqrt(S.^2 - P.^2);
 
 plot(alpha,P, 'linewidth', 5, alpha, Q, 'linewidth', 5, alpha,S, 'linewidth', 5)
 legend('P', 'Q', 'S')
+xlabel('theta [°]')
+ylabel('P [W], Q [Var], S [VA]')
