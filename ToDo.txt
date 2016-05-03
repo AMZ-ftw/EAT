@@ -1,0 +1,48 @@
+1.) Einleitung (Knüsel)
+- Schema
+- Maschinen beschreibung (z.B. ABB S500 400V, ...)
+- KO Sonden farben
+- Ziele
+
+
+
+
+2.) Messung
+2.1.) Grundfrequenz (Knüsel)
+- KO Bilder mit Becshreibung
+- Harmonischen (alle ungeraden)
+
+- Graphen von Matlab beschreiben
+- Zeigerdiagramm U,I (Inselbetrieb kapativit, ....)
+- 
+
+2.2.) Andere Pulsmuster (Pascal)
+- KO Bilder mit Beschreibung
+- Verhalten von P,Q,S (cos phi)
+
+- Stromform effektivwert (Sinus fein)
+
+
+
+
+3.) Fazit (Knüsel)
+- AC, DC Kopplung (Verstärker boxen, Verhältniss)
+- Stromrichtung der Zangen
+- Synchronisieren über Strom mit gutem Filter
+
+(Aus dem Skript kopieren)
+- Vor- /Nachteile der Pulsmuster
+- Einsatz (Elimierung: Resonanz, Carrier: Einfache implementation)
+
+
+
+
+4.) Messgeräte
+- nix
+
+
+
+
+
+5.) Anhang
+- nix
