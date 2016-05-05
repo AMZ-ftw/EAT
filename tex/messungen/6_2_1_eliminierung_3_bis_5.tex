@@ -1,4 +1,6 @@
 \subsubsection{Eliminierung 3 bis 5 Harmonischer}
+\label{6_2_title}
+
 Bei diesem Verfahren wurde die dritte und fünfte Harmonische eliminiert. Da es sich hierbei um einen zweiphasigen Wechselrichter handelt, ist die dritte Harmonische nicht automatisch eliminiert.\\
 
 Um zwei Harmonische eliminieren zu können, muss das Steuersignal zwei Freiheitsgrade aufweisen.
@@ -16,10 +18,11 @@ Um zwei Harmonische eliminieren zu können, muss das Steuersignal zwei Freiheits
 Durch Berechnen von $\alpha_1$ und $\alpha_2(\alpha_1)$ können bestimmte harmonische entfernt werden, in unserem Fall die dritte und fünfte.
 
 
-
+\clearpage
 %
 % KO Pictures
 %
+Das Ansteuerungssignal in Abbildung \ref{fig:6_2_1_0} sieht gleich aus wie in Abbilung \ref{fig:6_2_freiheitsgrade}.
 \begin{figure}[H]
   \begin{center}
   \includegraphics[width=0.48\textwidth]
@@ -29,8 +32,7 @@ Durch Berechnen von $\alpha_1$ und $\alpha_2(\alpha_1)$ können bestimmte harmon
   \end{center}
 \end{figure}
 
-\noindent Das Ansteuerungssignal sieht gleich aus wie in Abbilung \ref{fig:6_2_freiheitsgrade}.
-
+Die violette Kurve entspricht: $U_L = U_A - U_{Netz}$
 \begin{figure}[H]
   \begin{center}
   \includegraphics[width=0.48\textwidth]
@@ -39,8 +41,9 @@ Durch Berechnen von $\alpha_1$ und $\alpha_2(\alpha_1)$ können bestimmte harmon
   \label{fig:6_2_1_1}
   \end{center}
 \end{figure}
+\clearpage 
 
-
+Der Stromverlauf $I_{L1}$ richted sich nach der Spannung $U_L$. Der Kurvenverlauf von $I_{L1}$ ist sehr gut ersichtlich anhand des Integrales, $I_L = \frac{1}{L} \int U_L dt$.
 \begin{figure}[H]
   \begin{center}
   \includegraphics[width=0.48\textwidth]
@@ -50,5 +53,6 @@ Durch Berechnen von $\alpha_1$ und $\alpha_2(\alpha_1)$ können bestimmte harmon
   \end{center}
 \end{figure}
 
+Bei der Messung war ersichtlich, dass der Anteil der dritten und fünften Harmonischen kleiner als 1\% war. Dieses Prozent kann durch Messfehler verursacht werden, sowie durch nicht exaktes einhalten von $\alpha_1$ und $\alpha_2$
 
 \clearpage
